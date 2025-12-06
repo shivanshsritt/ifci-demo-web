@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+ <!-- HERO BANNER -->
+<section class="media-hero">
+    <div class="overlay"></div>
+    <h1 class="hero-title">Media</h1>
+</section>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+    <a href="#">Home</a> <span>|</span> <span>Media</span>
+</div>
+
+<!-- PRESS RELEASE SECTION -->
+<section class="press-release-section fade-in">
+    <h2 class="section-title">Press Releases</h2>
+
+    <table class="press-table">
+        <thead>
+            <tr>
+                <th>S. No.</th>
+                <th>Title</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>IFCI Ltd. celebrated National Sports Day from 29-31 Aug 2025, honouring India's sportspersons, Olympic values of Excellence, Friendship & Respect, and the spirit of the Fit India Movement.</td><td>18/11/2025</td></tr>
+            <tr><td>2</td><td>IFCI Itd. has entered into two robust collaborations: MoU between IFCI & India Meteorological Department (IMD) MoU between IFCI & The Energy & Resources Institute (TERI)</td><td>04/11/2025</td></tr>
+            <tr><td>3</td><td>Collaboration with The Energy & Resources Institute (TERI) to strengthen outreach of ESG services in banks, Fls & Corporates With this partnership, IFCI stays committed to support the evolving ESG landspace.</td><td>29/09/2025</td></tr>
+            <tr><td>4</td><td>Collaboration with India Meteorological Department (IMD) to support development of the climate risk assessment framework. With this partnership, IFCI stands committed to support the evolving ESG landscape.Associations...</td><td>24/09/2025</td></tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- SOCIAL MEDIA SECTION -->
+<section class="social-media-section fade-in">
+    <h2 class="section-title">Social Media</h2>
+
+    <div class="social-slider">
+        <button class="slide-btn left">←</button>
+
+        <div class="slides">
+            <div class="slide"><img src="insta.jpg"></div>
+            <div class="slide"><img src="twitter.png"></div>
+            <div class="slide"><img src="link.png"></div>
+            <div class="slide"><img src="download.jpg"></div>
+        </div>
+
+        <button class="slide-btn right">→</button>
+    </div>
+</section>
+
+<!-- PHOTO GALLERY -->
+<section class="photo-gallery fade-in">
+    <h2 class="section-title">Photo Gallery</h2>
+
+    <div class="gallery-grid">
+        <div class="g-item" data-title="Event 1" data-info="Full description of event one">
+            <img src="IFCI1.jpg">
+        </div>
+        <div class="g-item" data-title="Event 2" data-info="Full description of event two">
+            <img src="IFCI2obust.jpg">
+        </div>
+        <div class="g-item" data-title="Event 3" data-info="Full description of event three">
+            <img src="IFCI3.jpg">
+        </div>
+           <div class="g-item" data-title="Event 3" data-info="Full description of event three">
+            <img src="ific4nt.jpg">
+        </div>
+    </div>
+</section>
+
+<!-- MODAL POPUP FOR GALLERY -->
+<div class="modal" id="modalBox">
+    <div class="modal-content">
+        <span class="close">×</span>
+        <img id="modalImage">
+        <h3 id="modalTitle"></h3>
+        <p id="modalInfo"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
